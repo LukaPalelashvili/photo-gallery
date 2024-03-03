@@ -1,0 +1,48 @@
+/* Modal.css */
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.modal-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.image-details {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.close-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close-button button {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
